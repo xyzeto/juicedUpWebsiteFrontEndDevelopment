@@ -1,0 +1,12 @@
+//This jQuery section below is going
+//to make the mobile menu slide toggle down and appear on mobile view.
+$(document).ready(function(){
+	$(".handle").click(function(){
+  	$(".navbar").slideToggle();
+  });
+
+$(window).resize(function() {
+	$("nav ul").css('display', '');
+ });
+//This jQuery section below is going
+//to make the mobile menu slide toggle down and appear on mobile view.
