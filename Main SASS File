@@ -1,3 +1,6 @@
+THis is my main SASS file I used to make the Juiced Up website. This file will import two outside SASS files to help manage the code
+better. 
+
 /*This is where we will import any extra SASS files*/
 @import 'main';
 @import 'responsiveNavbar';
